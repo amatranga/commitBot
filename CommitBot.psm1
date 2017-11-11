@@ -8,6 +8,8 @@ function CommitBot {
   git push origin master
 
   Set-Location ~
+
+  exit
 }
 
 export-modulemember -function CommitBot
