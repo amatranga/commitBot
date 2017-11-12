@@ -1,6 +1,6 @@
 function CommitBot {
   
-  Set-Location (YOUR_LOCATION)
+  Set-Location c:/users/alex/myapps/commitbot
   Write-Output "Commit: $(date)" >> output.txt
 
   git add output.txt
@@ -13,4 +13,3 @@ function CommitBot {
 }
 
 export-modulemember -function CommitBot
-  
