@@ -7,7 +7,6 @@ function CommitBot {
   git commit -m "Made on: $(date)"
   git push origin master
 
-  Set-Location ~
-}
+  Set-Location ~}
 
 export-modulemember -function CommitBot
